@@ -1,6 +1,6 @@
 .general {
 	background-color: #1a1a1a;
-	color: #000000;
+	color: #ffffff;
 }
 
 .header {
@@ -10,14 +10,15 @@
 }
 
 .whiteLine {
-	background-color: #000000;
+	background-color: #ffffff;
 	padding: 3px;
-	margin: 2px;
+	margin-bottom: 2px;
 }
 
 .hoverHeader:hover {
 	background-color: #1a1a1a;
 	color: #ffffff;
+	
 }
 
 #divForImg {

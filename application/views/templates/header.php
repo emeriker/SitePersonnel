@@ -12,20 +12,26 @@
 
 </head>
 <body class="general">
-	<div class="row header">
-		<div class="col-sm-1"></div>
-		<div class="col-sm-2">
-			<a href="<?PHP echo base_url('index.php/Accueil')?>" id="btn-xl" class="btn btn-info" role="button">Acceuil</a>
+	<div class="header">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2 no-padding">
+				<a href="<?PHP echo base_url('index.php/Accueil')?>" id="btn-xl"
+					class="btn" role="button">Acceuil</a>
+			</div>
+			<div class="col-sm-1 no-padding">
+				<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap1')?>"
+					id="btn-xl" class="btn" role="button">Bootstrap1</a>
+			</div>
+			<div class="col-sm-1 no-padding">
+				<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap2')?>"
+					id="btn-xl" class="btn" role="button">Bootstrap2</a>
+			</div>
+			<div class="col-sm-1 no-padding">
+				<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap3')?>"
+					id="btn-xl" class="btn" role="button">Bootstrap3</a>
+			</div>
 		</div>
-		<div class="col-sm-1">
-			<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap1')?>" id="btn-xl" class="btn btn-info" role="button">Bootstrap1</a>
-		</div>
-		<div class="col-sm-1">
-			<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap2')?>" id="btn-xl" class="btn btn-info" role="button">Bootstrap2</a>
-		</div>
-		<div class="col-sm-1">
-			<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap3')?>" id="btn-xl" class="btn btn-info" role="button">Bootstrap3</a>
-		</div>
+		<div class="whiteLine"></div>
+		<div class="whiteLine"></div>
 	</div>
-	<div class="whiteLine"></div>
-	<div class="whiteLine"></div>
