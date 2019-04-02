@@ -1,0 +1,30 @@
+.general {
+	background-color: #1a1a1a;
+	color: #000000;
+}
+
+.header {
+	text-align: center;
+	background-color: #1a1a1a;
+	color: white;
+}
+
+.whiteLine {
+	background-color: #000000;
+	padding: 3px;
+	margin: 2px;
+}
+
+.hoverHeader:hover {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
+#divForImg {
+	position: absolute;
+	z-index: 1000000;
+	background-image: linear-gradient(to right, rgba(26, 26, 26, 1),
+		transparent, rgba(26, 26, 26, 1));
+	left: 0;
+	right: 0;
+}

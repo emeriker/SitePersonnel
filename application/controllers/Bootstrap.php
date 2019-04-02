@@ -1,0 +1,34 @@
+<?php
+class Bootstrap extends CI_Controller {
+
+	public function __construct() {
+		parent::__construct ();
+		// load MY_Controller (qui est dans le core)
+	}
+	public function index() {
+		$this->bootstrap1();
+	}
+	public function bootstrap1() {
+		$data ['title'] = 'Accueil';
+
+		$this->load->view ( 'templates/header', $data );
+		$this->load->view ( 'pages/bootstrapTuto/bootstrapTuto1', $data );
+		$this->load->view ( 'templates/footer', $data );
+	}
+	
+	public function bootstrap2() {
+		$data ['title'] = 'Accueil';
+	
+		$this->load->view ( 'templates/header', $data );
+		$this->load->view ( 'pages/bootstrapTuto/bootstrapTuto2', $data );
+		$this->load->view ( 'templates/footer', $data );
+	}
+	
+	public function bootstrap3() {
+		$data ['title'] = 'Accueil';
+	
+		$this->load->view ( 'templates/header', $data );
+		$this->load->view ( 'pages/bootstrapTuto/bootstrapTuto3', $data );
+		$this->load->view ( 'templates/footer', $data );
+	}
+}
