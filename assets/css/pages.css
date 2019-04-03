@@ -1,18 +1,22 @@
 .general {
 	background-color: #1a1a1a;
 	color: #ffffff;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	font-size:22px;
 }
 
-.body{
+
+
+.body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% auto;
-	background-position: center center; 
+	background-position: center center;
 }
 
 .header {
 	text-align: center;
-	background-color: #1a1a1a;
+	background-color: #000000;
 	color: white;
 }
 
@@ -31,9 +35,15 @@
 	position: absolute;
 	z-index: 1000000;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 1),
-		transparent, rgba(0, 0, 0, 1));
+		rgba(0, 0, 0, 0.8), transparent, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
 	left: 0;
 	right: 0;
+}
+
+#divForImg h1 {
+	font-size: 100px; text-align : center;
+	line-height: 450px;
+	text-align: center;
 }
 
 .projet-img {
@@ -41,10 +51,15 @@
 	width: 100%;
 }
 
-.fade-to-left{
-
+.fade-to-left {
+	
 }
 
 .projects {
 	padding: 5%;
+}
+
+.divTextProject{
+	min-height:300px;
+	padding:20px;
 }

@@ -7,11 +7,9 @@
     width:100%;
     height:60px;
     font-size: 20px;
-    border-style: none none none solid;
     padding:0.75rem;
-    border-left: 2px solid #ffffff;
     border-radius:0px;
-    background-color:#1a1a1a;
+    background-color:#000000;
     transition-duration: 0.4s;
     color: #ffffff;
 }
@@ -19,6 +17,13 @@
 #btn-xl:hover {
 	background-color: #ffffff;
 	color: #000000;
+}
+
+.btn-primary{
+	height:100px;
+	width:300px;
+	font-size:30px;
+	margin:auto;
 }
 
 .w-100{
