@@ -8,13 +8,13 @@
 	<div class="row">
 		<div class="col-6 no-padding fade-to-left">
 			<img class="projet-img row-projet"
-				src=<?PHP echo base_url('assets/img/TP2.png')?> alt="Site de chat">
+				src=<?PHP echo base_url('assets/img/notAvailable.png')?> alt="Site de chat">
 		</div>
 		<div class="col-6 ">
 			<div class="row divTextProject">allo</div>
 			<div class="row">
 				<div class="col-4"></div>
-				<a href="https://github.com/emeriker/tp2-php-chat"><button
+				<a href="https://github.com/emeriker/SitePersonnel"><button
 						type="button" class="btn btn-primary">See GitHub</button> </a>
 			</div>
 		</div>
