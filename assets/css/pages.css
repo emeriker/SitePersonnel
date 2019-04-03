@@ -3,6 +3,13 @@
 	color: #ffffff;
 }
 
+.body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% auto;
+	background-position: center center; 
+}
+
 .header {
 	text-align: center;
 	background-color: #1a1a1a;
@@ -18,14 +25,26 @@
 .hoverHeader:hover {
 	background-color: #1a1a1a;
 	color: #ffffff;
-	
 }
 
 #divForImg {
 	position: absolute;
 	z-index: 1000000;
-	background-image: linear-gradient(to right, rgba(26, 26, 26, 1),
-		transparent, rgba(26, 26, 26, 1));
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 1),
+		transparent, rgba(0, 0, 0, 1));
 	left: 0;
 	right: 0;
+}
+
+.projet-img {
+	height: 100%;
+	width: 100%;
+}
+
+.fade-to-left{
+
+}
+
+.projects {
+	padding: 5%;
 }

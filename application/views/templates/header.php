@@ -32,15 +32,17 @@
 					id="btn-xl" class="btn" role="button">Bootstrap3</a>
 			</div>
 			<div class="col-sm-1 no-padding">
-				<a href="<?PHP echo base_url('index.php/projets')?>"
-					id="btn-xl" class="btn" role="button">Projects</a>
+				<a href="<?PHP echo base_url('index.php/projets')?>" id="btn-xl"
+					class="btn" role="button">Projects</a>
 			</div>
 			<div class="col-sm-4 no-padding"></div>
 			<div class="col-sm-1 no-padding">
-				<a href="<?PHP echo base_url('index.php/contacter')?>"
-					id="btn-xl" class="btn" role="button">Contact</a>
+				<a href="<?PHP echo base_url('index.php/contacter')?>" id="btn-xl"
+					class="btn" role="button">Contact</a>
 			</div>
 		</div>
 		<div class="whiteLine"></div>
 		<div class="whiteLine"></div>
 	</div>
+
+	<div class="body" style=background-image:url(<?PHP echo base_url('assets/img/background1.jpeg')?>)>
