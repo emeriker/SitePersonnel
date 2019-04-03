@@ -17,7 +17,7 @@
 			<div class="col-sm-1"></div>
 			<div class="col-sm-2 no-padding">
 				<a href="<?PHP echo base_url('index.php/Accueil')?>" id="btn-xl"
-					class="btn" role="button">Acceuil</a>
+					class="btn" role="button">Home</a>
 			</div>
 			<div class="col-sm-1 no-padding">
 				<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap1')?>"
@@ -30,6 +30,15 @@
 			<div class="col-sm-1 no-padding">
 				<a href="<?PHP echo base_url('index.php/bootstrap/bootstrap3')?>"
 					id="btn-xl" class="btn" role="button">Bootstrap3</a>
+			</div>
+			<div class="col-sm-1 no-padding">
+				<a href="<?PHP echo base_url('index.php/projets')?>"
+					id="btn-xl" class="btn" role="button">Projects</a>
+			</div>
+			<div class="col-sm-4 no-padding"></div>
+			<div class="col-sm-1 no-padding">
+				<a href="<?PHP echo base_url('index.php/contacter')?>"
+					id="btn-xl" class="btn" role="button">Contact</a>
 			</div>
 		</div>
 		<div class="whiteLine"></div>

@@ -3,7 +3,6 @@ class Bootstrap extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct ();
-		// load MY_Controller (qui est dans le core)
 	}
 	public function index() {
 		$this->bootstrap1();

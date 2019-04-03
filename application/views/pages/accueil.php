@@ -35,7 +35,18 @@
 		</a>
 	</div>
 	<h1>Welcome</h1>
-	<p>This website site is still in developpement</p>
+	<p>*This website site is still in developpement*</p>
+	<p>
+		Hello everyone,</br> My name is Emeric Lague and I am a big passionate
+		of web developpement, software developpement and data science (more
+		specifically machine learning). I am currently a student in the field
+		of data science. So far I have managed to get myself an "AEC
+		Programmeur-analyste" (analyst programmer) at C&eacute;gep Limoilou Campus de Qu&eacute;bec. I want to help people developping their amazing
+		projects with the help of technology. My main goal is to become a data
+		scientist in the artificial intelligence field. I am also currently looking
+		for a job in the software/web developpement. If you think I might be a 
+		good candidate me!!
+	</p>
 </div>
 
 
