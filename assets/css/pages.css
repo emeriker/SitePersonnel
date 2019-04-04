@@ -52,7 +52,23 @@
 }
 
 .fade-to-left {
-	
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 1));
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	position:absolute;
+	z-index:1;
+}
+
+.fade-to-right {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 1),transparent);
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	position:absolute;
+	z-index:1;
 }
 
 .projects {
