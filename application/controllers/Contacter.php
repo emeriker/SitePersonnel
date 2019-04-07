@@ -3,6 +3,7 @@ class Contacter extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct ();
+		$this->load->model ( 'Message' );
 	}
 	public function index() {
 		$this->accueil ();
@@ -10,16 +11,15 @@ class Contacter extends CI_Controller {
 	public function accueil() {
 		$this->load->library('form_validation');
 		$this->load->helper('form');
-		
+
 		$data ['title'] = 'Contacter';
-		
-		$this->form_validation->set_rules('username', 'Username', 'required');
-		$this->form_validation->set_rules('password', 'Password', 'required');
-		$this->form_validation->set_rules('passconf', 'Password Confirmation', 'required');
-		$this->form_validation->set_rules('email', 'Email', 'required');
+
+		$this->form_validation->set_rules('name', 'Name', 'required',array('required' => 'You must provide a %s.',));
+		$this->form_validation->set_rules('email', 'Email', 'required',array('required' => 'You must provide a %s.',));
+		$this->form_validation->set_rules('message', 'Message', 'required',array('required' => 'You must provide a %s.',));
 
 		$this->load->view ( 'templates/header', $data );
-		if ($this->form_validation->run() == FALSE)
+		if ($this->form_validation->run() == FALSE||$this->Message->SendEmail($this->input->post ( 'name' ),$this->input->post ( 'email' ),$this->input->post ( 'message'))==false)
 		{
 			$this->load->view ( 'pages/Contacter', $data );
 		}
