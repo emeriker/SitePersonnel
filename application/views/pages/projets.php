@@ -1,19 +1,32 @@
-</br>
-<h1 style="text-align: center;">Personal projects</h1>
-</br>
+<div style="position: relative;">
+	<div class="col-12 projet-title-img" style="content: url(
+<?PHP echo base_url('assets/img/Projets3.jpg')?>"></div>
+	<div class="about-me-title">
+		</br> </br> </br>
+		<h1>Personal projects</h1>
+	</div>
+</div>
 </br>
 <div class="projects">
-	<div class="whiteLine col-12"></div>
-	</br>
-	<div class="row">
-		<div class="col-6 no-padding">
+
+	<div class="row jumbotron ">
+		<div class="whiteLine col-12 no-padding"></div>
+		<div class="col-6 no-padding" style="position: relative;">
 			<img class="projet-img row-projet"
-				src=<?PHP echo base_url('assets/img/notAvailable.png')?>
+				src=<?PHP echo base_url('assets/img/background1.jpeg')?>
 				alt="Site de chat">
-			<div class="fade-to-left"></div>
+				<div class="fade-to-right"></div>
 		</div>
-		<div class="col-6 ">
-			<div class="row divTextProject">allo</div>
+		<div class="col-6">
+			<div class="row divTextProject">
+				<h1>Personal website</h1>
+				<p>This is the code of this actual website.
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp</p>
+			</div>
 			<div class="row">
 				<div class="col-4"></div>
 				<a href="https://github.com/emeriker/SitePersonnel"><button
@@ -21,12 +34,17 @@
 			</div>
 		</div>
 	</div>
-	</br>
-	<div class="whiteLine col-12"></div>
-	</br>
-	<div class="row">
+	
+
+	<div class="row jumbotron">
+		<div class="whiteLine col-12 no-padding"></div>
 		<div class="col-6 ">
-			<div class="row divTextProject">allo</div>
+			<div class="row divTextProject">
+				<h1>Chating website</h1>
+				<p>This is an other similar project of this website. Please take
+					note that a database is required in order to make this project
+					fonctional, but feel free to check out the code.</p>
+			</div>
 			<div class="row">
 				<div class="col-4"></div>
 				<a href="https://github.com/emeriker/tp2-php-chat"><button
@@ -37,8 +55,9 @@
 		<div class="col-6 no-padding">
 			<img class="projet-img row-projet"
 				src=<?PHP echo base_url('assets/img/TP2.png')?> alt="Site de chat">
-			<div class="fade-to-right"></div>
+			<div class="fade-to-left"></div>
 		</div>
 
 	</div>
 </div>
+

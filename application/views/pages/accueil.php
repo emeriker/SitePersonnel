@@ -27,21 +27,20 @@
 		<!-- Left and right controls -->
 		
 	</div>
-	<p>*This website site is still in developpement*</p>
+	</br>
+	</br>
+	<div class="jumbotron">
 	<p>
 		Hello everyone,</br> My name is Emeric Lague and I am a big passionate
 		about web development, software development and data science (more
-		specifically machine learning). I am currently a student in the field
-		of data science. So far I have managed to get myself an "AEC
-		Programmeur-analyste" (analyst programmer) at C&eacute;gep Limoilou
-		Campus de Qu&eacute;bec. I want to help people developing their
-		amazing projects with the help of technology. My main goal is to
-		become a data scientist in the artificial intelligence field. I am
-		also currently looking for a job in the software/web development. If
+		specifically machine learning). I want to help people developing their
+		amazing projects with the help of technology. I am
+		also currently looking for a job as a software/web developper. If
 		you think I might be a good candidate, don't hesitate to contact me!!
 	</p>
+	</div>
 </div>
 
-</br></br></br></br></br></br></br></br></br>
+</br></br>
 
 
