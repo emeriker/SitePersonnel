@@ -4,8 +4,8 @@
 	<div class="whiteLine"></div>
 	</br>
 	<div class="row">
-		<div class="col-sm-1 logo no-padding" style="content: url("
-<?PHP echo base_url('assets/img/logo3.png')?>></div>
+		<div class="col-sm-1 logo no-padding" style="content: url(
+<?PHP echo base_url('assets/img/logo3.png')?>"></div>
 		<div class="col-9"></div>
 		<div class="col-2">
 			<p style="color: #595959">CAN - Quebec</p>

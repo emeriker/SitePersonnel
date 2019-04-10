@@ -17,7 +17,7 @@
 		<div class="row">
 			<div class="col-6">
 				<ul>
-					<li>I love pholosophy</li>
+					<li>I love phoilosophy</li>
 					<li>Video games is a big part of my life</li>
 					<li>My whole life is about questing things</li>
 				</ul>
@@ -54,7 +54,7 @@
 	<div class="col-3 travel-img" style="content: url(
 <?PHP echo base_url('assets/img/travel/travel5.jpg')?>"></div>
 	<div class="col-3 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel10.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel11.jpg')?>"></div>
 	<div class="col-3 travel-img" style="content: url(
 <?PHP echo base_url('assets/img/travel/travel7.jpg')?>"></div>
 </div>
@@ -66,9 +66,9 @@
 		<div class="whiteLine col-12"></div>
 		<p>My main goal in life is to make the world a better place to live
 			while still while maintaining a healthy body, mind and relationships.
-			With my personnal experiences and skills, I am now beginning to use
-			them to help people developping their projects. I am always trying to
-			find ways and put action on those ways to develop the best self that
+			With my personal experiences and skills, I am now beginning to use
+			them to help people in developing their projects. I am always trying
+			to find ways and put action on those ways to develop better self that
 			I can be. I am still young and I have a lot work to do.</p>
 	</div>
 
@@ -101,10 +101,10 @@
 		</div>
 		<div class="col-6">
 			<h1>AEC - Programmeur Analyste</h1>
-			<p>From : C&eacute;gep limoilou Campus</p>
+			<p>From : C&eacute;gep limoilou Campus de Qu&eacute;bec</p>
 			<p>&nbsp</p>
-			<p>Started : 2016</p>
-			<p>Ended : 2018</p>
+			<p>Start : 2016</p>
+			<p>End : 2018</p>
 		</div>
 	</div>
 </div>

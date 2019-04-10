@@ -1,7 +1,7 @@
 .general {
 	background-color: #1a1a1a;
 	color: #ffffff;
-	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	font-family: 'Playfair Display', serif;
 	font-size:22px;
 }
 
@@ -48,7 +48,7 @@
 	background-attachment: fixed;
 	background-size: 100% auto;
 	background-position: center center;
-	height:600px;
+	height:890px;
 	padding:0px;
 }
 
@@ -57,7 +57,7 @@
 	background-attachment: fixed;
 	background-size: 100% auto;
 	background-position: center center;
-	height:600px;
+	height:890px;
 	padding:0px;
 }
 

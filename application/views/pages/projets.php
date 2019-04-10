@@ -3,6 +3,7 @@
 <?PHP echo base_url('assets/img/Projets3.jpg')?>"></div>
 	<div class="about-me-title">
 		</br> </br> </br>
+		</br></br>
 		<h1>Personal projects</h1>
 	</div>
 </div>
@@ -15,7 +16,7 @@
 			<img class="projet-img row-projet"
 				src=<?PHP echo base_url('assets/img/background1.jpeg')?>
 				alt="Site de chat">
-				<div class="fade-to-right"></div>
+			<div class="fade-to-right"></div>
 		</div>
 		<div class="col-6">
 			<div class="row divTextProject">
@@ -34,16 +35,16 @@
 			</div>
 		</div>
 	</div>
-	
+
 
 	<div class="row jumbotron">
 		<div class="whiteLine col-12 no-padding"></div>
 		<div class="col-6 ">
 			<div class="row divTextProject">
 				<h1>Chating website</h1>
-				<p>This is an other similar project of this website. Please take
-					note that a database is required in order to make this project
-					fonctional, but feel free to check out the code.</p>
+				<p>This is another similar project on this website. Please take note
+					that a database is required in order to make this project
+					functional, but feel free to check out the code.</p>
 			</div>
 			<div class="row">
 				<div class="col-4"></div>

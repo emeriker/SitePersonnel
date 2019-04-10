@@ -14,7 +14,7 @@
 			<?php echo form_error('email'); ?>
 			</br> </br>
 		<textarea class="text-input-contacter" type="text" name="message"
-			value="" rows="5" cols="52" placeholder="Message"></textarea>
+			value="" rows="5" cols="51" placeholder="Message"></textarea>
 			<?php echo form_error('message'); ?>
 		</br> </br>
 		<div>
