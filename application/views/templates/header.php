@@ -23,11 +23,11 @@
 			</div>
 			
 			<div class="col-sm-1 no-padding">
-				<a href="<?PHP echo base_url('index.php/projets')?>" id="btn-xl"
+				<a href="<?PHP echo base_url('index.php/Projets')?>" id="btn-xl"
 					class="btn" role="button">Projects</a>
 			</div>
 			<div class="col-sm-1 no-padding">
-				<a href="<?PHP echo base_url('index.php/aboutme')?>" id="btn-xl"
+				<a href="<?PHP echo base_url('index.php/AboutMe')?>" id="btn-xl"
 					class="btn" role="button">About me</a>
 			</div>
 			<div class="col-sm-7 no-padding"></div>

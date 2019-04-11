@@ -11,7 +11,7 @@ class Projets extends CI_Controller {
 		$data ['title'] = 'Contacter';
 
 		$this->load->view ( 'templates/header', $data );
-		$this->load->view ( 'pages/Projets', $data );
+		$this->load->view ( 'pages/projets', $data );
 		$this->load->view ( 'templates/footer', $data );
 	}
 }

@@ -21,7 +21,7 @@ class Contacter extends CI_Controller {
 		$this->load->view ( 'templates/header', $data );
 		if ($this->form_validation->run() == FALSE||$this->Message->SendEmail($this->input->post ( 'name' ),$this->input->post ( 'email' ),$this->input->post ( 'message'))==false)
 		{
-			$this->load->view ( 'pages/Contacter', $data );
+			$this->load->view ( 'pages/contacter', $data );
 		}
 		else
 		{

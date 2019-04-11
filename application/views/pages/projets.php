@@ -1,6 +1,6 @@
 <div style="position: relative;">
 	<div class="col-12 projet-title-img" style="content: url(
-<?PHP echo base_url('assets/img/Projets3.jpg')?>"></div>
+<?PHP echo base_url('assets/img/projets3.jpg')?>"></div>
 	<div class="about-me-title">
 		</br> </br> </br>
 		</br></br>

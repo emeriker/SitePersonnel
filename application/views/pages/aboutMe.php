@@ -42,21 +42,21 @@
 
 <div class="row">
 	<div class="col-4 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel1.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel1.JPG')?>"></div>
 	<div class="col-4 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel6.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel6.JPG')?>"></div>
 	<div class="col-4 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel3.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel3.JPG')?>"></div>
 </div>
 <div class="row">
 	<div class="col-3 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel8.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel8.JPG')?>"></div>
 	<div class="col-3 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel5.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel5.JPG')?>"></div>
 	<div class="col-3 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel11.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel11.JPG')?>"></div>
 	<div class="col-3 travel-img" style="content: url(
-<?PHP echo base_url('assets/img/travel/travel7.jpg')?>"></div>
+<?PHP echo base_url('assets/img/travel/travel7.JPG')?>"></div>
 </div>
 
 </br>

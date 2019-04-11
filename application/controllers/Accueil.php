@@ -12,7 +12,7 @@ class Accueil extends CI_Controller {
 		$data ['title'] = 'Accueil';
 
 		$this->load->view ( 'templates/header', $data );
-		$this->load->view ( 'pages/Accueil', $data );
+		$this->load->view ( 'pages/accueil', $data );
 		$this->load->view ( 'templates/footer', $data );
 	}
 }
