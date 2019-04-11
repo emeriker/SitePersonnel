@@ -16,7 +16,7 @@
 		<textarea class="text-input-contacter" type="text" name="message"
 			value="" rows="5" cols="51" placeholder="Message"></textarea>
 			<?php echo form_error('message'); ?>
-		</br> </br>
+		</br> <p><?php echo $success;?></p></br>
 		<div>
 			<input class="btn btn-primary" type="submit" value="Send" />
 		</div>
