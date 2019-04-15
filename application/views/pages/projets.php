@@ -14,7 +14,7 @@
 		<div class="whiteLine col-12 no-padding"></div>
 		<div class="col-6 no-padding" style="position: relative;">
 			<img class="projet-img row-projet"
-				src=<?PHP echo base_url('assets/img/background1.jpeg')?>
+				src=<?PHP echo base_url('assets/img/background6.jpg')?>
 				alt="Site de chat">
 			<div class="fade-to-right"></div>
 		</div>
