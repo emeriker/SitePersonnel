@@ -1,5 +1,5 @@
 <div style="position: relative;">
-	<div class="col-12 projet-title-img" style="content: url(
+	<div class="col-12 projet-title-img" style="background-image: url(
 <?PHP echo base_url('assets/img/projets3.jpg')?>"></div>
 	<div class="about-me-title">
 		</br> </br> </br>
@@ -13,7 +13,7 @@
 	<div class="row jumbotron ">
 		<div class="whiteLine col-12 no-padding"></div>
 		<div class="col-6 no-padding" style="position: relative;">
-			<img class="projet-img row-projet"
+			<img class="projet-img"
 				src=<?PHP echo base_url('assets/img/background6.jpg')?>
 				alt="Site de chat">
 			<div class="fade-to-right"></div>
@@ -54,11 +54,37 @@
 		</div>
 
 		<div class="col-6 no-padding">
-			<img class="projet-img row-projet"
+			<img class="projet-img"
 				src=<?PHP echo base_url('assets/img/TP2.png')?> alt="Site de chat">
 			<div class="fade-to-left"></div>
 		</div>
 
+	</div>
+	
+	<div class="row jumbotron ">
+		<div class="whiteLine col-12 no-padding"></div>
+		<div class="col-6 no-padding" style="position: relative;">
+			<img class="projet-img"
+				src=<?PHP echo base_url('assets/img/space3.jpg')?>
+				alt="Site de chat">
+			<div class="fade-to-right"></div>
+		</div>
+		<div class="col-6">
+			<div class="row divTextProject">
+				<h1>Space trip website</h1>
+				<p>This code is a simulation of a website presenting a trip to space.</br> *This project is still in development.*
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp</p>
+			</div>
+			<div class="row">
+				<div class="col-4"></div>
+				<a href="https://github.com/emeriker/Imagination"><button
+						type="button" class="btn btn-primary">See GitHub</button> </a>
+			</div>
+		</div>
 	</div>
 </div>
 

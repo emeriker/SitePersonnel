@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="<?PHP echo base_url('assets/img/writting-laptop-.png')?>">
+<link rel="icon"
+	href="<?PHP echo base_url('assets/img/writting-laptop-.png')?>">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display"
 	rel="stylesheet">
 <link rel="stylesheet"
@@ -17,31 +18,35 @@
 <div></div>
 <body class="general">
 	<div class="header">
-		<div class="row">
-			<div class="col-sm-1 logo no-padding" style="content: url(
+
+		<div class="logo" style="content: url(
 <?PHP echo base_url('assets/img/logo3.png')?>"></div>
-
-			<div class="col-sm-1 no-padding">
+		<nav>
+			
 				<a href="<?PHP echo base_url('index.php/Accueil')?>" id="btn-xl"
-					class="btn" role="button">Home</a>
-			</div>
+					class="btn" role="button"><span>Home </span></a>
+		
 
-			<div class="col-sm-1 no-padding">
+			
 				<a href="<?PHP echo base_url('index.php/Projets')?>" id="btn-xl"
-					class="btn" role="button">Projects</a>
-			</div>
-			<div class="col-sm-1 no-padding">
+					class="btn" role="button"><span>Projects </span></a>
+		
+			
 				<a href="<?PHP echo base_url('index.php/AboutMe')?>" id="btn-xl"
-					class="btn" role="button">About me</a>
-			</div>
-			<div class="col-sm-7 no-padding"></div>
+					class="btn" role="button"><span>About me </span></a>
+			
+			
 
 
-			<div class="col-sm-1 no-padding">
+			
 				<a href="<?PHP echo base_url('index.php/contacter')?>" id="btn-xl"
-					class="btn" role="button">Contact</a>
-			</div>
-		</div>
+					class="btn" role="button"><span>Contact </span></a>
+		
+		</nav>
+		<div class="clear"></div>
+
+
+
 		<div class="whiteLine"></div>
 		<div class="whiteLine"></div>
 	</div>

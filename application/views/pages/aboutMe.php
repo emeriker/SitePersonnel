@@ -1,5 +1,5 @@
 <div style="position: relative;">
-	<div class="col-12 about-me-img" style="content: url(
+	<div class="col-12 about-me-img" style="background-image: url(
 <?PHP echo base_url('assets/img/developping2.jpg')?>"></div>
 	<div class="about-me-title">
 		</br> </br> </br>

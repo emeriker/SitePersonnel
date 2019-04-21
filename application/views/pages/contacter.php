@@ -4,7 +4,7 @@
 <div class="container" style="text-align: center;">
 	<h1>Contact Me</h1>
 	</br>
-	<div class="jumbotron">
+	<div class="jumbotron contact-me-jumbotron">
 		<input class="text-input-contacter" type="text" name="name" value=""
 			size="50" placeholder="Name" /> 
 			<?php echo form_error('name'); ?>

@@ -3,19 +3,20 @@
 	<div class="whiteLine"></div>
 	<div class="whiteLine"></div>
 	</br>
-	<div class="row">
-		<div class="col-sm-1 logo no-padding" style="content: url(
-<?PHP echo base_url('assets/img/logo3.png')?>"></div>
-		<div class="col-9"></div>
-		<div class="col-2">
-			<p style="color: #595959">CAN - Quebec</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-10"></div>
-		<div class="col-2">Copyright &copy; 2019</div>
 
+	<div class="logo" style="content: url(
+<?PHP echo base_url('assets/img/logo3.png')?>"></div>
+
+
+	<div class="footer-signature">
+		CAN - Quebec
 	</div>
+	<div class="clear"></div>
+
+
+	<div class="footer-signature">Copyright &copy; 2019</div>
+	<div class="clear"></div>
+
 	</br>
 </div>
 
