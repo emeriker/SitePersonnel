@@ -1,4 +1,4 @@
-</br></br>
+
 <div class="container">
 
 	<div id="divForImg" class="container w-100"><h1>Welcome</h1></div>
@@ -38,6 +38,7 @@
 		also currently looking for a job as a software/web developper. If
 		you think I might be a good candidate, don't hesitate to contact me!!
 	</p>
+	<p>*This website is still in development.</p>
 	</div>
 </div>
 

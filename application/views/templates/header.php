@@ -7,8 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon"
 	href="<?PHP echo base_url('assets/img/writting-laptop-.png')?>">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display"
-	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
@@ -51,4 +50,4 @@
 		<div class="whiteLine"></div>
 	</div>
 
-	<div class="body" style="background-image: url(<?PHP echo base_url('assets/img/background6.jpg')?>")>
+	<div class="body" style="background-color:black;")>

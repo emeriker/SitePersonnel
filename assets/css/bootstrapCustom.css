@@ -1,26 +1,38 @@
-.jumbotron{
-    background-color:#262626;
-    color:white;
+.jumbotron {
+	background-color: #262626;
+	color: white;
 }
 
 
 
-.btn-primary{
-	height:100px;
-	width:300px;
-	font-size:30px;
-	margin:auto;
-	
+.w-100 {
+	height: 500px;
 }
 
-.w-100{
-	height:500px;
+.no-padding {
+	padding: 0px;
 }
 
-.no-padding{
-	padding:0px;
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.9);
 }
 
-.jumbotron{
-	background-color:rgba(0, 0, 0, 0.9);
+@media ( min-width :300px) {
+	.btn-primary {
+		height: 50px;
+		width: 150px;
+		font-size: 15px;
+		position: relative;
+	}
+}
+
+@media ( min-width :700px) {
+	.btn-primary {
+		height: 100px;
+		width: 300px;
+		font-size: 30px;
+		top: calc(85% - 50px);
+		left: calc(50% - 150px);
+		position: absolute;
+	}
 }
