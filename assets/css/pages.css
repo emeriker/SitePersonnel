@@ -9,6 +9,10 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+.accueil{
+	height :900px!important;
+}
+
 .preload {
 	width: 100%;
 	height: 100%;
@@ -27,9 +31,11 @@
 }
 
 .header {
+	position:fixed;
 	text-align: center;
-	background-color: #000000;
 	color: white;
+	z-index:3;
+	width:100%;
 }
 
 nav a {
@@ -57,7 +63,6 @@ nav a {
 	padding-left: 75px;
 	padding-right: 75px;
 	border-radius: 0px;
-	background-color: #000000;
 	transition-duration: 0.4s;
 	color: #ffffff;
 }
@@ -130,6 +135,9 @@ nav a {
 		rgba(0, 0, 0, 0.8), transparent, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
 	left: 0;
 	right: 0;
+	width:100%;
+	height:100%;
+	margin: 0 0 0 0;
 }
 
 #divForImg h1 {
@@ -138,14 +146,122 @@ nav a {
 	line-height: 450px;
 	text-align: center;
 }
+.black-background{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.white-background{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.white-box-main{
+	position:relative;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes main-white-box {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(10deg);}
+  50%  {transform: rotate(-10deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.white-box-1{
+	position:absolute;
+	top:20%;
+	left:40%;
+	height:50px;
+	width:50px;
+	background-color: #ffffff;
+	opacity:0.5;
+	animation-name: white-box-1;
+	animation-duration: 17s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: linear;
+	
+}
+
+@keyframes white-box-1 {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(-10deg);}
+  50%  {transform: rotate(10deg);}
+  75%  {transform: rotate(30deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.white-box-2{
+	position:absolute;
+	top:60%;
+	left:50%;
+	height:30px;
+	width:30px;
+	background-color: #ffffff;
+	opacity:0.3;
+	animation-name: white-box-2;
+	animation-duration: 20s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: linear;
+}
+
+@keyframes white-box-2 {
+  
+  0%   {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.white-box-3{
+	position:absolute;
+	top:40%;
+	left:70%;
+	height:40px;
+	width:40px;
+	background-color: #ffffff;
+	opacity:0.4;	
+	animation-name: white-box-3;
+	animation-duration: 13s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: linear;
+}
+
+@keyframes white-box-3 {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(10deg);}
+  50%  {transform: rotate(-10deg);}
+  75%  {transform: rotate(-30deg);}
+  100% {transform: rotate(0deg);}
+}
 
 .container-flex {
 	display: flex;
-	background-color: rgba(0, 0, 0, 0.6);
+	
 }
 
 .box-flex {
 	flex: 1;
+}
+
+.box-flex-accueil-present-1{
+	flex: 1;
+	padding:50px;
+}
+
+.box-flex-accueil-present-2{
+	flex: 1;
+	margin:50px;
+}
+
+.box-flex-accueil-1{
+	flex: 1;
+	margin:30px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.box-flex-accueil-2{
+	flex: 3;
+	z-index:2;
+	position:relative;
+	padding:30px;
+	
 }
 
 
@@ -182,6 +298,17 @@ nav a {
 .fade-to-right {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 1),
 		transparent);
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 1;
+}
+
+.fade-to-top {
+	background-image: linear-gradient(
+		transparent,rgba(0, 0, 0, 1));
 	height: 100%;
 	width: 100%;
 	top: 0px;
@@ -234,6 +361,21 @@ nav a {
 .contact-me-jumbotron {
 	min-width: 700px;
 }
+.room{
+	position:relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 1000px;
+	text-align:center;
+	color: black;
+}
+
+.room h1{
+	font-size:100px;
+	
+}
+
 
 @media ( min-width :300px) {
 	.logo {
@@ -286,13 +428,13 @@ nav a {
 		padding-right: 40px;
 	}
 	.projet-title-img {
-		height: 900px;
+		height: 1000px;
 	}
 	.projet-img {
 		height: 500px;
 	}
 	.about-me-img {
-		height: 900px;
+		height: 1000px;
 	}
 	.travel-img {
 		height: 300px;

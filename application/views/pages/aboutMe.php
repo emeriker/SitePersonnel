@@ -58,10 +58,10 @@
 
 	<div class="fun-facts">
 	</br></br>
-		<div class="box-flex">
+		<div class="box-flex ">
 			<h1>My values</h1>
 		</div>
-		<div class="container-flex">
+		<div class="container-flex black-background">
 			<div class="box-flex center-text">
 				Accomplishment</br> Curiosity</br>Empathy</br>
 

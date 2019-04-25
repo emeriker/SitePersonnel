@@ -19,7 +19,8 @@
 		<p>
 			<?php echo $success;?>
 		</p>
-		</br> <div style="position: relative;"><input  class="btn btn-primary" type="submit" value="Send" /></div>
+		</br> 
+		<div style="position: relative;"><input  class="btn btn-primary" type="submit" value="Send" /></div>
 
 
 		</form>
