@@ -8,6 +8,10 @@
 	</div>
 </div>
 </br>
+</br>
+</br>
+</br>
+</br>
 <div class="fun-facts">
 	<h1>A few fun facts about myself!</h1>
 	<div class="container-flex">
@@ -25,7 +29,10 @@
 	</div>
 </div>
 </br>
-
+</br>
+</br>
+</br>
+</br>
 <div class="row">
 	<div class="col-4 travel-img" style="content: url(
 <?PHP echo base_url('assets/img/travel/travel1.jpg')?>"></div>
@@ -53,15 +60,15 @@
 		while still while maintaining a healthy body, mind and relationships.
 		With my personal experiences and skills, I am now beginning to use
 		them to help people in developing their projects. I am always trying
-		to find ways and put action on those ways to develop the best self that
-		I can be. I am still young and I have a lot work to do.</p>
+		to find ways and put action on those ways to develop the best self
+		that I can be. I am still young and I have a lot work to do.</p>
 
 	<div class="fun-facts">
-	</br></br>
+		</br> </br>
 		<div class="box-flex ">
 			<h1>My values</h1>
 		</div>
-		<div class="container-flex black-background">
+		<div class="container-flex ">
 			<div class="box-flex center-text">
 				Accomplishment</br> Curiosity</br>Empathy</br>
 

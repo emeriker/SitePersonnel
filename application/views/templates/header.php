@@ -22,16 +22,18 @@
 		<div class="logo" style="content: url(
 <?PHP echo base_url('assets/img/logoTransparent.png')?>"></div>
 		<nav>
-
-			<a href="<?PHP echo base_url('index.php/Accueil')?>" id="btn-xl"
-				class="btn" role="button"><span>Home </span> </a> <a
-				href="<?PHP echo base_url('index.php/Projets')?>" id="btn-xl"
-				class="btn" role="button"><span>Projects </span> </a> <a
-				href="<?PHP echo base_url('index.php/AboutMe')?>" id="btn-xl"
-				class="btn" role="button"><span>About me </span> </a> <a
-				href="<?PHP echo base_url('index.php/contacter')?>" id="btn-xl"
-				class="btn" role="button"><span>Contact </span> </a>
-
+			<label for="toggle">&#9776</label>
+			<input type="checkbox" id="toggle"/>
+			<div class="menu-href">
+				<a href="<?PHP echo base_url('index.php/Accueil')?>" id="btn-xl"
+					class="btn" role="button"><span>Home </span> </a> <a
+					href="<?PHP echo base_url('index.php/Projets')?>" id="btn-xl"
+					class="btn" role="button"><span>Projects </span> </a> <a
+					href="<?PHP echo base_url('index.php/AboutMe')?>" id="btn-xl"
+					class="btn" role="button"><span>About me </span> </a> <a
+					href="<?PHP echo base_url('index.php/contacter')?>" id="btn-xl"
+					class="btn" role="button"><span>Contact </span> </a>
+			</div>
 		</nav>
 		<div class="clear"></div>
 

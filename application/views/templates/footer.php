@@ -8,9 +8,7 @@
 <?PHP echo base_url('assets/img/logo3.png')?>"></div>
 
 
-	<div class="footer-signature">
-		CAN - Quebec
-	</div>
+	<div class="footer-signature">CAN - Quebec</div>
 	<div class="clear"></div>
 
 
@@ -31,6 +29,8 @@
 <link
 	rel="stylesheet"
 	href="<?PHP echo base_url('assets/css/bootstrapCustom.css')?>">
+<link
+	rel="stylesheet" href="<?PHP echo base_url('assets/css/animations.css')?>">
 <link
 	rel="stylesheet" href="<?PHP echo base_url('assets/css/pages.css')?>">
 </body>
